@@ -21,6 +21,6 @@ document.getElementById('btn-add-money').addEventListener('click', function(even
   document.getElementById('balance-money').innerText = newBalance;
    }
    else{
-    alart('Wrong number');
+    alert('Wrong number');
    }
 });
